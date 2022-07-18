@@ -17,7 +17,8 @@ To complete this project,we use a URL for GeoJSON earthquake data from the USGS 
 We use the JavaScript and the D3.js library to retrieve the coordinates and magnitudes of the earthquakes from the GeoJSON data. We use the Leaflet library to plot the data on a Mapbox map through an API request and create interactivity for the earthquake data.
 
 ## Resources
--Data sources:Earthquakes GeoJSON data From  USGS website,Tectonic plate data from "GeoJSON/PB2002_boundaries.json"
+-Data sources:Earthquakes GeoJSON data From  USGS website,Tectonic plate data from "GeoJSON/PB2002_boundaries.json".
+
 -VS code,JavaScript,D3,Mapbox and HTML.
 
 ## Results
@@ -26,16 +27,18 @@ To create the maps we use the JavaScript,D3 library and geoJSON data.Here,we add
 
 A street map layer with all earthquake toggles
 
-![]()
+![](https://github.com/akthersr/Mapping_Earthquakes1/blob/main/deliverable%201.png)
 
 Then,we add color and set the radius of the circle markers based on the magnitude of earthquake, and add a popup marker for each earthquake that displays the magnitude and location of the earthquake using the GeoJSON layer, geoJSON().The major earthquake data is added as a third layer group in the map and all the earthquake data and tectonic plate data displays the magnitude and location of the earthquake. 
 
 A street map layer with major earthquakes
 
-![]()
+![](https://github.com/akthersr/Mapping_Earthquakes1/blob/main/deliverable%202.png)
 
 
 A dark layer map with all earthquake toggles:
+
+![](https://github.com/akthersr/Mapping_Earthquakes1/blob/main/deliverable%203.png)
 
 
 By visualizing the data,it is clear that most of the major earthquakes in the last week have occurred near or on the tectonic plates.So, the major earthquakes all fall on or right next to the fault lines.
