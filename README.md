@@ -41,6 +41,6 @@ A dark layer map with all earthquake toggles:
 ![](https://github.com/akthersr/Mapping_Earthquakes1/blob/main/deliverable%203.png)
 
 
-By visualizing the data,it is clear that most of the major earthquakes in the last week have occurred near or on the tectonic plates.So, the major earthquakes all fall on or right next to the fault lines.
+By visualizing the data,it was clear that most of the major earthquakes in the last week have occurred near or on the tectonic plates.So, the major earthquakes all fall on or right next to the fault lines.
  
 
