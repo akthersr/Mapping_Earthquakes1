@@ -23,15 +23,15 @@ We use the JavaScript and the D3.js library to retrieve the coordinates and magn
 
 ## Results
 
-To create the maps we use the JavaScript,D3 library and geoJSON data.Here,we add tectonic plate data using d3.json(), add the data using the geoJSON() layer, set the tectonic plate LineString data to stand out on the map, and add the tectonic plate data to the overlay object with the earthquake data.The image for the final map is as follows:
+To create this maps we use the JavaScript,D3 library and geoJSON data. Here, we add tectonic plate data by using d3.json(), add the data using the geoJSON() layer, set the tectonic plate LineString data to stand out on the map, and add the tectonic plate data to the overlay object with the earthquake data.The image for the final map is as follows:
 
-A street map layer with all earthquake toggles
+A street map layer with all earthquake toggles:
 
 ![](https://github.com/akthersr/Mapping_Earthquakes1/blob/main/deliverable%201.png)
 
-Then,we add color and set the radius of the circle markers based on the magnitude of earthquake, and add a popup marker for each earthquake that displays the magnitude and location of the earthquake using the GeoJSON layer, geoJSON().The major earthquake data is added as a third layer group in the map and all the earthquake data and tectonic plate data displays the magnitude and location of the earthquake. 
+Then,we add color and set the radius of the circle markers based on the magnitude of earthquake, and add a popup marker for each earthquake that displays the magnitude and location of the earthquake using the GeoJSON layer.The major earthquake data is added as a third layer group in the map and all the earthquake data and tectonic plate data displays the magnitude and location of the earthquake. 
 
-A street map layer with major earthquakes
+A street map layer with major earthquakes:
 
 ![](https://github.com/akthersr/Mapping_Earthquakes1/blob/main/deliverable%202.png)
 
