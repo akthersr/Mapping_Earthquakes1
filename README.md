@@ -2,7 +2,7 @@
 
 ## Overview 
 
-The main objective of this project is to visualize and create an earthquake map by using the latest earthquake GeoJSON data from US Geological Survey(USGS) website,with an interactive feature on earthquakes from arround the world in relation to the tectonic plates’ location on the earth, and all the earthquakes with a magnitude greater than 4.5.
+The main objective of this project is to visualize and create an earthquake map by using the latest earthquake GeoJSON data from US Geological Survey(USGS) website, with an interactive feature on earthquakes from arround the world in relation to the tectonic plates’ location on the earth, and all the earthquakes with a magnitude greater than 4.5.
 
 ## Purpose
 
@@ -10,20 +10,21 @@ The purpose of this project is to visually show the differences between the magn
 
 ## Tasks
 
-To complete this project,we use a URL for GeoJSON earthquake data from the USGS website and retrieve geographical coordinates and the magnitudes of earthquakes for the last seven days. Then add the data to a map.
+To complete this project, we use a URL for GeoJSON earthquake data from the USGS website and retrieve geographical coordinates and the magnitudes of earthquakes for the last seven days. Then add the data to a map.
 
 ## Approach
 
 We use the JavaScript and the D3.js library to retrieve the coordinates and magnitudes of the earthquakes from the GeoJSON data. We use the Leaflet library to plot the data on a Mapbox map through an API request and create interactivity for the earthquake data.
 
 ## Resources
--Data sources:Earthquakes GeoJSON data From  USGS website,Tectonic plate data from "GeoJSON/PB2002_boundaries.json".
 
--VS code,JavaScript,D3,Mapbox and HTML.
+-Data sources: Earthquakes GeoJSON data From  USGS website, Tectonic plate data from "GeoJSON/PB2002_boundaries.json".
+
+-VS code, JavaScript, D3, Mapbox and HTML.
 
 ## Results
 
-To create this maps we use the JavaScript,D3 library and geoJSON data. Here, we add tectonic plate data by using d3.json(), add the data using the geoJSON() layer, set the tectonic plate LineString data to stand out on the map, and add the tectonic plate data to the overlay object with the earthquake data.The image for the final map is as follows:
+To create this maps we use the JavaScript, D3 library and geoJSON data. Here, we add tectonic plate data by using d3.json(), add the data using the geoJSON() layer, set the tectonic plate LineString data to stand out on the map, and add the tectonic plate data to the overlay object with the earthquake data.The image for the final map is as follows:
 
 A street map layer with all earthquake toggles:
 
