@@ -18,9 +18,9 @@ We use the JavaScript and the D3.js library to retrieve the coordinates and magn
 
 ## Resources
 
--Data sources: Earthquakes GeoJSON data From  USGS website, Tectonic plate data from "GeoJSON/PB2002_boundaries.json".
+- Data sources: Earthquakes GeoJSON data From  USGS website, Tectonic plate data from "GeoJSON/PB2002_boundaries.json".
 
--VS code, JavaScript, D3, Mapbox and HTML.
+- VS code, JavaScript, D3, Mapbox and HTML.
 
 ## Results
 
